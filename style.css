@@ -51,12 +51,18 @@ footer ul
 {
 	float:center;
 }
+footer li
+{
+    
+  	margin-left: 20px;
+	margin-right: 20px;
+}
 hr
 {
 	border-color:black;
 }
 body
 {
-    padding: 0px 150px;
+    padding: 0px 154px;
     
 }
