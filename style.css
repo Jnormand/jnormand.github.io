@@ -1,4 +1,4 @@
-html, head, header, img, title, body, a, h1, h2, p, ul, li, footer, img, hr {
+html, head, header, img, title, body, a, h1, h2, h3, section, aside, p, ul, li, footer, img, hr {
 
 } 
 
@@ -17,6 +17,11 @@ header ul
 	float:right;
 	
 }	
+
+aside
+{
+	float: right;
+}
 header li
 {
     
@@ -41,6 +46,10 @@ header a
 	text-decoration: none;
 	color: black;
 	font-size:20px;	
+}
+footer
+{
+	float: ;
 }
 footer a
 {
