@@ -2,73 +2,85 @@ html, head, header, img, title, body, a, h1, h2, h3, section, aside, p, ul, li, 
 
 } 
 
-body
-{
+
+body {
 	font-family:"Segoe UI";
 }
-ul li
-{
+
+ul li {
 	list-style: none;
 	display: inline;
 	text-decoration: none;
 }
-header ul
-{
+
+header ul {
 	float:right;
+	padding-top: 20px;
 	
 }	
 
-aside
-{
+aside {
 	float: right;
+	width: 30%;
 }
-header li
-{
+
+header li {
     
   	margin-left: 20px;
 	margin-right: 20px;
 }
-h1
-{
-	font-size:50px;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 			'Yanone Kaffeesatz', sans-serif;
+	font-weight: 			normal; 
+	margin: 					20px 0 10px 0;
 }
-h2
-{
+
+h1 {
+	font-family:"Yanone Kaffeesatz", sans-serif;
+	font-size:70px;
+}
+
+h2 {
 	font-size:30px;
 	text-align:center;
+	font-family:"Yanone Kaffeesatz";
 }
-p 
-{
+
+p {
 	text-align:center;
 }
-header a
-{
+
+header a {
 	text-decoration: none;
 	color: black;
 	font-size:20px;	
 }
 
-footer a
-{
+footer a {
      text-decoration: none;
      color: black;   
 }
-footer ul
-{
+
+footer ul {
 	float:center;
 }
-footer li
-{
+
+footer li {
     
   	margin-left: 20px;
 	margin-right: 20px;
 }
-hr
-{
+
+hr {
 	border-color:black;
 }
-body
-{
-    padding: 0px 154px;
+
+body {
+    padding: 0px 150px;
     
+}
+
+section {
+	width:70%;
 }
