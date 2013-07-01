@@ -37,25 +37,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-family:"Yanone Kaffeesatz", sans-serif;
 	font-size:70px;
 }
 
 h2 {
 	font-size:30px;
 	text-align:center;
-	font-family:"Yanone Kaffeesatz";
 }
 
-p {
-	text-align:center;
+a {
+	text-decoration: none;
+	color: #0090d3;
 }
 
 header a {
-	text-decoration: none;
 	color: black;
 	font-size:20px;	
+
 }
+
+header a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #0090d3;
+
+
+}
+
 
 footer a {
      text-decoration: none;
